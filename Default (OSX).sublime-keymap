@@ -1,4 +1,7 @@
 [{
     "keys": ["ctrl+alt+q"],
-    "command": "qswitch"
+    "command": "q_switch"
+}, {
+    "keys": ["ctrl+alt+w"],
+    "command": "q_go"
 }]

@@ -1,6 +1,11 @@
 [
     {
-        "caption": "QCubed: QSwitch",
-        "command": "qswitch"
+        "caption": "QCubed: Go",
+        "command": "q_go"
+    },
+    {
+        "caption": "QCubed: Switch",
+        "command": "q_switch"
     }
+    
 ]

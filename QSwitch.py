@@ -6,7 +6,6 @@ import sublime_plugin
 
 class QSwitchCommand(sublime_plugin.TextCommand):  
     def run(self, view, *args):  
-        
         filename = self.view.file_name()
 
         if filename:

@@ -1,7 +1,18 @@
 # QSwitch
 
-Sublime Text 2 plugin to switch between a QCubed Form and its template.
+Sublime Text 2 plugin to help switch between files in QCubed projects
+
+
+## QSwitch
+
+Will switch between a form and its template, if present inside the same folder:
 
 Command palette: QCubed: QSwitch
 Hotkeys: CTRL + ALT + Q
 
+## QGo
+
+Will build a list of files with similar filenames to select and open.
+
+Command palette: QCubed: Go
+Hotkeys: CTRL + ALT + W
