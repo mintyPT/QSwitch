@@ -50,7 +50,8 @@ class QGoCommand(sublime_plugin.TextCommand):
             self.view.window().show_quick_panel(self.results_clean, self.insert_link)
 
     def insert_link(self, choice):
-        sublime.active_window().open_file(self.results[choice])
+        if(choice != -1):
+            sublime.active_window().open_file(self.results[choice])
 
 
 
