@@ -1,10 +1,9 @@
 # encoding: utf-8
 
-import sublime
-from copy import copy
-import sublime_plugin  
-
 import os
+import sublime
+import sublime_plugin
+from copy import copy
 
 def getfiles(path):
     files = os.listdir(path)
@@ -20,9 +19,9 @@ def getfiles(path):
     return results_files
 
 
-class QGoCommand(sublime_plugin.TextCommand):  
-    def run(self, view, *args):  
-        
+class QGoCommand(sublime_plugin.TextCommand):
+    def run(self, view, *args):
+
         filename = self.view.file_name()
 
         if filename:
@@ -36,10 +35,9 @@ class QGoCommand(sublime_plugin.TextCommand):
             if fs[-1] == 'tpl':
                 fs = fs[:-1]
             fs = '.'.join(fs)
-            
+
             files = []
             pastas = sublime.active_window().folders()
-
             for p in pastas:
                 files += getfiles(p)
 
