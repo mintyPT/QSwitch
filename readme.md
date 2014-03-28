@@ -1,7 +1,6 @@
 # QSwitch
 
-Sublime Text 2 plugin to help switch between files in QCubed projects
-
+Sublime Text 2 plugin to help switch between files in [QCubed](http://qcu.be/) projects
 
 ## QSwitch
 
