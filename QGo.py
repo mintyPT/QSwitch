@@ -43,7 +43,7 @@ class QGoCommand(sublime_plugin.TextCommand):
 
             self.results = filter(lambda f: fs in f and original not in f, files)
 
-            self.results_clean = [f.split('/')[-1] for f in self.results]
+            self.results_clean = [f.split('/')[-2:] for f in self.results]
 
             self.view.window().show_quick_panel(self.results_clean, self.insert_link)
 
