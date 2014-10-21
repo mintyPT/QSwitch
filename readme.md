@@ -1,6 +1,8 @@
 # QSwitch
 
-Sublime Text 2 plugin to help switch between files in [QCubed](http://qcu.be/) projects
+Sublime Text 2 plugin to help switch between files in [QCubed](http://qcu.be/) projects.
+
+To install use the package control or simply git clone git@github.com:mintyPT/QSwitch.git into your packages directory
 
 ## QSwitch
 
